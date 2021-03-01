@@ -1,0 +1,3 @@
+var documenterSearchIndex = {"docs":
+[{"location":"","page":"Home","title":"Home","text":"CurrentModule = githubactions4julia","category":"page"},{"location":"#githubactions4julia","page":"Home","title":"githubactions4julia","text":"","category":"section"},{"location":"","page":"Home","title":"Home","text":"","category":"page"},{"location":"","page":"Home","title":"Home","text":"Modules = [githubactions4julia]","category":"page"},{"location":"#githubactions4julia.githubactions4juliasample-Tuple{}","page":"Home","title":"githubactions4julia.githubactions4juliasample","text":"githubactions4juliasample() return true\n\n\n\n\n\n","category":"method"}]
+}
