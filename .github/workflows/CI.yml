@@ -10,11 +10,13 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          - '1.0'
+#          - '1.0'
           - '1.5'
-          - 'nightly'
+#          - 'nightly'
         os:
           - ubuntu-latest
+          - macos-latest
+          - windows-latest
         arch:
           - x64
           - x86
@@ -40,9 +42,9 @@ jobs:
       - uses: codecov/codecov-action@v1
         with:
           file: lcov.info
-      - uses: julia-actions/julia-uploadcoveralls@v1
-        env:
-          COVERALLS_TOKEN: ${{ secrets.COVERALLS_TOKEN }}
+#      - uses: julia-actions/julia-uploadcoveralls@v1
+#        env:
+#          COVERALLS_TOKEN: ${{ secrets.COVERALLS_TOKEN }}
   docs:
     name: Documentation
     runs-on: ubuntu-latest
